@@ -25,7 +25,8 @@ public class DAY_3_Array_Queue {
             }
         }
         public static int dequeue(){
-            if()
+//            if()
+            return 0;
         }
     }
     public static void main(String[] args) {
