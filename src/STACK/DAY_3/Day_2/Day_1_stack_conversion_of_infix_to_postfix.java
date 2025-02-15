@@ -27,7 +27,7 @@ public class Day_1_stack_conversion_of_infix_to_postfix {
         */
 // ABC/DE+*+F-
         Stack<Character> stack = new Stack<Character>();
-        String s = "((a-(b+c))*d)^(e+f)";
+        String s = "a*b+c/d";
         String ans="";
         char[] ch = s.toCharArray();
         for(int i = 0; i < ch.length;i++){
